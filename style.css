@@ -1,0 +1,84 @@
+.backgrounds {
+    background-color: rgba(62, 62, 62, 0.553);
+    height: 200px;
+}
+
+body {
+    font-family: 'Oswald', sans-serif;
+
+}
+
+.font {
+    font-family: 'Oswald', sans-serif;
+}
+
+.carousel-caption.top-middle {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.carousel-caption.top-middle {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.carousel-caption span {
+    font-size: 50px;
+    font-weight: 700;
+    color: rgba(46, 46, 143, 0.829);
+}
+
+.carousel-caption p {
+    color: rgba(55, 55, 98, 0.584);
+}
+
+@media (max-width: 768px) {
+    .carousel-caption.top-middle {
+        top: 25%;
+    }
+
+    .carousel-caption span {
+        font-size: 30px;
+    }
+
+    .carousel-caption p {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 576px) {
+    .carousel-caption span {
+        font-size: 20px;
+        color: white;
+    }
+
+    .carousel-caption p {
+        font-size: 10px;
+    }
+}
+
+#warning {
+    background-color: rgba(95, 95, 95, 0.352);
+
+}
+
+.card-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.card {
+    margin-left: 20px;
+    background-color: rgba(255, 255, 255, 0.338);
+
+}
